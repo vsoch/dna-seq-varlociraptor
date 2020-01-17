@@ -9,6 +9,7 @@ report: "report/workflow.rst"
 singularity: "docker://continuumio/miniconda3"
 
 include: "rules/common.smk"
+include: "rules/download.smk"
 include: "rules/ref.smk"
 include: "rules/trimming.smk"
 include: "rules/mapping.smk"
